@@ -26,9 +26,10 @@ Projects stored here should meet all of the following criteria:
 * They are supported (e.g., if someone files an issue, it will be seen
   and addressed in some way)
 
-* They are not just internal NCAR projects, but rather have some
-  involvement (typically strong involvement) from outside communities
-  (e.g., the university community or other agencies)
+* They are projects that have some involvement (typically strong
+  involvement) from outside communities beyond the sponsoring
+  organization (e.g., the university community or other agencies).
+  Projects without outside collaboration should be stored elsewhere.
 
 It is acceptable to store a fork in ESCOMP if this is the main
 development fork for inclusion in a community-oriented modeling
