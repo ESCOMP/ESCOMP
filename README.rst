@@ -19,7 +19,7 @@ Policies for inclusion of a repository in this organization
 The ESCOMP github organization is for large, community-oriented earth
 system modeling projects of broad interest.
 
-Projects stored here meet all of the following criteria:
+Projects stored here should meet all of the following criteria:
 
 * They are related to earth system modeling in some way
 
@@ -30,25 +30,17 @@ Projects stored here meet all of the following criteria:
   involvement (typically strong involvement) from outside communities
   (e.g., the university community or other agencies)
 
-* This is the primary repository for this project, not a fork of a
-  primary repository that is stored elsewhere. For example, this would
-  not generally be an appropriate place to store the CESM-specific fork
-  of a project whose primary repository is stored in a different github
-  organization. One exception would be if the primary repository is a
-  fairly closed operation, and we maintain the main community-oriented
-  fork of the project. The rationale is:
+It is acceptable to store a fork in ESCOMP if this is the main
+development fork for inclusion in a community-oriented modeling
+project.
 
-  * We want ESCOMP to contain a relatively small number of
-    repositories. Opening the door to storing forks here could greatly
-    increase the number of repositories in this organization, which will
-    make it hard to find what you're looking for.
+* For example, the primary repository for the MOM6 ocean model is stored
+  in a GFDL github organization. However, NCAR maintains a fork of MOM6
+  for use in CESM. It is acceptable to store NCAR's fork of MOM6 in
+  ESCOMP so that it can appear alongside other CESM components, and
+  because NCAR's MOM6 fork is still of broad interest to the community
+  even though it isn't the primary fork.
 
-  * ESCOMP is not CESM-centric, or even NCAR-centric. Thus, it doesn't
-    make sense to store the fork of another model here just because this
-    is the fork that happens to be used in CESM or by NCAR scientists.
-
-  * Inclusion in ESCOMP implies that this is the repository with which
-    other communities (the university community, scientists from other
-    agencies, etc.) should interact. This is typically not the case for
-    forks.
-
+* On the other hand, it is not acceptable to store a fork in ESCOMP if
+  this fork is only used internally at NCAR and is not part of a broader
+  community modeling project.
