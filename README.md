@@ -1,20 +1,16 @@
-=====================================================
- The Earth System Community Modeling Portal (ESCOMP)
-=====================================================
+# The Earth System Community Modeling Portal (ESCOMP)
 
 This repository provides information about the ESCOMP github
 organization:
 
 https://github.com/ESCOMP
 
-Management
-==========
+## Management
 
 The ESCOMP github organization is managed by the University Corporation
 for Atmospheric Research (https://www2.ucar.edu/).
 
-Policies for inclusion of a repository in this organization
-===========================================================
+## Policies for inclusion of a repository in this organization
 
 The ESCOMP github organization is for large, community-oriented earth
 system modeling projects of broad interest.
