@@ -39,3 +39,20 @@ project.
 * On the other hand, it is not acceptable to store a fork in ESCOMP if
   this fork is only used internally at NCAR and is not part of a broader
   community modeling project.
+
+## Repository naming conventions
+
+For repositories with an acronym as part or all of their name, we
+generally prefer the use of uppercase acronyms. For example, we have
+repositories named `CESM` and `CISM-wrapper`. An exception is
+repositories that are used *solely* for hosting GitHub pages (i.e.,
+websites appearing under escomp.github.io/): These can use lowercase
+acronyms in order to have fully lowercase URLs. For example, we have a
+repository named `ctsm-docs`. Repositories that are used for both code
+and GitHub pages follow the uppercase convention (e.g., `CESM`); we can
+put redirects in place so that links to the lowercase version redirect
+to the uppercase version (e.g., `escomp.github.io/cesm` redirects to
+`escomp.github.io/CESM`).
+
+We have no standardization concerning the use of hyphens, underscores or
+PascalCase to delineate separate words in a repository's name.
